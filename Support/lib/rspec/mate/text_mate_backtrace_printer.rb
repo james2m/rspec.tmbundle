@@ -134,6 +134,7 @@ module RSpec
           "style=\"margin-left: #{(number_of_parents - 1) * 15}px;\""
         end
 
+        # rubocop:disable IndentHeredoc
         REPORT_HEADER = <<-HTML.freeze
 <div class="rspec-report">
 <div id="rspec-header">
